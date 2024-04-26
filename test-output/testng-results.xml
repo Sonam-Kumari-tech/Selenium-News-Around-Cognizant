@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-04T11:34:01 IST" name="Suite" finished-at="2024-04-04T11:37:32 IST" duration-ms="210764">
+    <groups>
+    </groups>
+    <test started-at="2024-04-04T11:34:01 IST" name="Test" finished-at="2024-04-04T11:37:32 IST" duration-ms="210764">
+      <class name="casproject.TestClass">
+        <test-method is-config="true" signature="navigate()[pri:0, instance:casproject.TestClass@6989da5e]" started-at="2024-04-04T11:34:01 IST" name="navigate" finished-at="2024-04-04T11:34:24 IST" duration-ms="22536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="LoginPage()[pri:0, instance:casproject.TestClass@6989da5e]" started-at="2024-04-04T11:34:24 IST" name="LoginPage" finished-at="2024-04-04T11:34:50 IST" duration-ms="26400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+        <test-method signature="validateUser()[pri:1, instance:casproject.TestClass@6989da5e]" started-at="2024-04-04T11:34:51 IST" name="validateUser" finished-at="2024-04-04T11:34:58 IST" duration-ms="7802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUser -->
+        <test-method signature="validateAroundCognizant()[pri:2, instance:casproject.TestClass@6989da5e]" started-at="2024-04-04T11:34:58 IST" name="validateAroundCognizant" finished-at="2024-04-04T11:34:59 IST" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAroundCognizant -->
+        <test-method signature="CountNews()[pri:3, instance:casproject.TestClass@6989da5e]" started-at="2024-04-04T11:34:59 IST" name="CountNews" finished-at="2024-04-04T11:35:02 IST" duration-ms="3323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CountNews -->
+        <test-method signature="VerifyTooltip()[pri:4, instance:casproject.TestClass@6989da5e]" started-at="2024-04-04T11:35:02 IST" name="VerifyTooltip" finished-at="2024-04-04T11:35:22 IST" duration-ms="20041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTooltip -->
+        <test-method signature="clickSeeAll()[pri:5, instance:casproject.TestClass@6989da5e]" started-at="2024-04-04T11:35:22 IST" name="clickSeeAll" finished-at="2024-04-04T11:35:28 IST" duration-ms="6340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSeeAll -->
+        <test-method signature="SecondPage()[pri:6, instance:casproject.TestClass@6989da5e]" started-at="2024-04-04T11:35:28 IST" name="SecondPage" finished-at="2024-04-04T11:35:34 IST" depends-on-methods="casproject.TestClass.clickSeeAll" duration-ms="5585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondPage -->
+        <test-method signature="VerifyNews()[pri:7, instance:casproject.TestClass@6989da5e]" started-at="2024-04-04T11:35:34 IST" name="VerifyNews" finished-at="2024-04-04T11:35:34 IST" depends-on-methods="casproject.TestClass.SecondPage, casproject.TestClass.clickSeeAll" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNews -->
+        <test-method signature="printNews()[pri:8, instance:casproject.TestClass@6989da5e]" started-at="2024-04-04T11:35:34 IST" name="printNews" finished-at="2024-04-04T11:37:30 IST" duration-ms="116151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printNews -->
+        <test-method is-config="true" signature="close()[pri:0, instance:casproject.TestClass@6989da5e]" started-at="2024-04-04T11:37:30 IST" name="close" finished-at="2024-04-04T11:37:32 IST" duration-ms="1364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- casproject.TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
